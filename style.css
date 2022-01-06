@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 144rem;
+  background-color: #e0e8ff;
+  font-family: "Red Hat Display", sans-serif;
+  line-height: 1.6;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.container {
+  max-width: 35rem;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 1.1rem;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+}
+
+.order-img {
+  max-width: 100%;
+}
+
+.order-summary-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.text-container {
+  padding: 1.2rem 3.2rem;
+  margin-bottom: 1.6rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+}
+
+.heading-primary {
+  font-size: 2.4rem;
+  font-weight: 900;
+  letter-spacing: -2;
+  color: #1f2f56;
+}
+
+.order-summary {
+  font-size: 1.4rem;
+  color: #7280a7;
+}
+
+.annual-plan-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f7ff;
+  border-radius: 0.9rem;
+  padding: 1.2rem;
+}
+
+.music-icon {
+  height: 4.5rem;
+  width: 4.5rem;
+}
+
+.annual-plan {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.plan-heading {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1f2f56;
+}
+.plan-duration {
+  font-size: 1.2rem;
+  color: #7280a7;
+}
+
+.about-annual-plan {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.about-plan-link:link,
+.about-plan-link:visited {
+  font-size: 1.1rem;
+  color: #3829e0;
+  font-weight: 700;
+}
+
+.about-plan-link:hover,
+.about-plan-link:active {
+  color: #7469e9;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.payment-link:link,
+.payment-link:visited {
+  display: block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-color: #3829e0;
+  color: #fff;
+  padding: 1.2rem;
+  border-radius: 0.9rem;
+
+  box-shadow: 0 1.2rem 1.2rem rgba(0, 0, 0, 0.178);
+}
+
+.payment-link:hover,
+.payment-link:active {
+  background-color: #7469e9;
+  cursor: pointer;
+}
+
+.cancel-order:link,
+.cancel-order:visited {
+  font-size: 1.1rem;
+  text-decoration: none;
+  font-weight: 700;
+  color: #7280a7;
+}
+
+.cancel-order:hover,
+.cancel-order:active {
+  text-decoration: none;
+  color: #1f2f56;
+  cursor: pointer;
+}
